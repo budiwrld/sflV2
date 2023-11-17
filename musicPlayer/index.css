@@ -1,0 +1,90 @@
+@font-face {
+    font-family: vonique;
+    src: url(assets/fonts/Vonique\ 64\ Bold.ttf);
+}
+
+.main {
+    position: fixed;
+}
+
+.container {
+    position: fixed;
+    height: 6rem;
+    width: 22rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    bottom: 2rem;
+    right: 2rem; 
+    background: #373737;
+    box-shadow: 2px 2px 20px #000000;
+    border-radius: 10px;
+    z-index: 100;
+    transition: 0.5s ease-in-out;
+}
+
+.container:hover {
+    transition: 0.5s ease-in-out;
+    background: #202020;
+}
+
+.song-artist {
+    font-family: vonique;
+    font-weight: 600;
+    font-size: larger;
+    max-width: 200px;
+    max-height: 100px;
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.song-title {
+    max-width: 250px; /* Set max-width to 170px */
+    position: absolute;
+    left: 5rem;
+    top: 4rem;
+    z-index: 4;
+    color: white;
+    font-family: vonique;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#play-pause {
+    position: absolute;
+    filter: invert(1);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    bottom: 25%;
+    z-index: 4;
+    font-size: 53px;
+    right: 80%;
+}
+
+#next-song, #previous-song {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    filter: invert(1);
+    cursor: pointer;
+    bottom: 23.5%;
+    font-size: 40px;
+    z-index: 400;
+}
+
+#next-song {
+    right: 10%;
+    bottom: 20px;
+}
+
+#next-song:hover, #previous-song:hover {
+    background: rgba(128, 128, 128, 0.15);
+    border-radius: 50px;
+}
+
+#previous-song {
+    right: 10.3%;
+    bottom: 47.5%;
+}

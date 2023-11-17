@@ -1,0 +1,89 @@
+@keyframes changeColor {
+    0% {
+        background: #111111;
+    }
+    10% {
+        background: #111111; 
+    }
+    20% {
+        background: #111111; 
+    }
+    25% {
+        background: #111111; 
+    }
+    30% {
+        background: #111111; 
+    }
+    35% {
+        background: #111111;
+    }
+    40% {
+        background: #111111; 
+    }
+    45% {
+        background: #111111; 
+    }
+    50% {
+        background: #111111; 
+    }
+    55% {
+        background: #111111; 
+    }
+    60% {
+        background: #111111; 
+    }
+    65% {
+        background: #111111; 
+    }
+    70% {
+        background: #111111; 
+    }
+    75% {
+        background: #111111; 
+    }
+    80% {
+        background: #111111; 
+    }
+    85% {
+        background: #111111; 
+    }
+    90% {
+        background: #111111; 
+    }
+    95% {
+        background: #111111; 
+    }
+    100% {
+        background:white;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    video {
+        max-width: 100%;
+        top: 20%; 
+        transform: translateY(-50%) scale(1);
+    }
+}
+
+body {
+    animation: changeColor 2.1s ease-in-out;
+    overflow: hidden;
+}
+
+.video-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25rem;
+    transform: translateY(-50%);
+}
+
+video {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    display: flex;
+}
+

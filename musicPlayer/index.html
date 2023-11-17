@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <audio src="./assets/music/Ghettoflunssa.mp3" id="song" autoplay></audio>
+
+        <div class="container">  
+            <div class="box"></div>      
+            <div class="song-artist">Duski</div>
+            <div class="song-title">Ghettoflunssa</div>
+            <img src="./assets/icons/play.png" onclick="playPause()" id="play-pause" />
+            <img src="./assets/icons/forward.png" onclick="nextSong()" id="next-song" />
+            <img src="./assets/icons/backward.png" onclick="previousSong()" id="previous-song" />
+    
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
