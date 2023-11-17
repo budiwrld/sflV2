@@ -3,10 +3,6 @@
     src: url(assets/fonts/Vonique\ 64\ Bold.ttf);
 }
 
-.main {
-    position: fixed;
-}
-
 .container {
     position: fixed;
     height: 6rem;
