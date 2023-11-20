@@ -36,7 +36,7 @@
 }
 
 .song-title {
-    max-width: 250px; /* Set max-width to 170px */
+    max-width: 250px; 
     position: absolute;
     left: 5rem;
     top: 4rem;
